@@ -1,3 +1,7 @@
+import portfolioImage from "../assets/portfolio.png";
+import jeuBoule from "../assets/jeuboule.jpg";
+
+
 import {
     mobile,
     backend,
@@ -180,16 +184,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "This Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Le portfolio que vous visitez actuellement.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
@@ -197,29 +201,21 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolioImage,
+      source_code_link: "https://github.com/abdelrkb/portfolio",
     },
     {
-      name: "Job IT",
+      name: "Jeu Boule",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Jeu vidéo codé dans le cadre d'un projet universitaire, en python qui consistait à une bataille de surface",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: jeuBoule,
+      source_code_link: "https://github.com/abdelrkb/jeuBoule",
     },
     {
       name: "Trip Guide",
