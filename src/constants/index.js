@@ -158,26 +158,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Les tentatives de création de machines pensantes nous seront d’une grande aide pour découvrir comment nous pensons nous-mêmes.",
+      name: "Alan Turing",
+      designation: "",
+      company: "",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Les programmes doivent être faits pour être lus par des gens, et occasionnellement pour être exécutés par des machines.",
+      name: "Hal Abelson",
+      designation: "",
+      company: "",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "There will be two kinds of people in the world, those who tell computers what to do, and those who’re told by computers what to do.",
+      name: "Marc Andreesen",
+      designation: "",
+      company: "",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
