@@ -1,5 +1,8 @@
 import portfolioImage from "../assets/portfolio.png";
 import jeuBoule from "../assets/jeuboule.jpg";
+import backpackHero from "../assets/backPack.jpeg";
+import scemantic from "../assets/scemantic.png";
+import jquery from "../assets/tech/jquery.png";
 
 
 import {
@@ -67,6 +70,7 @@ import {
     },
   ];
   const img = document.createElement('img');
+  //Bootsrap
   const technologies = [
     {
       name: "HTML 5",
@@ -85,16 +89,28 @@ import {
       icon: typescript,
     },
     {
+      name: "SQL",
+      icon: redux,
+    },
+    {
+      name: "Jquery",
+      icon: jquery,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "docker", //c
+      icon: docker,
     },
     {
       name: "Node JS",
@@ -105,20 +121,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -130,7 +134,7 @@ import {
       iconBg: "#383E56",
       date: "Juin 2021 - Septemnbre 2021",
       points: [
-        "Bla bla bla",        "Bla bla bla",        "Bla bla bla",        "Bla bla bla",      ],
+      "Relationnel Client", "Travail en équipe",      ],
     },
     {
       title: "Hôte d'acceuil",
@@ -139,7 +143,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Octobre 2021 - Décembre 2023",
       points: [
-        "Bla bla bla",        "Bla bla bla",        "Bla bla bla",        "Bla bla bla",
+        "Relationnel Client",        "Gestion et travail en équipe",    "Organisation d'un espace de travail partagé",
       ],
     },
     {
@@ -149,8 +153,8 @@ import {
       iconBg: "#383E56",
       date: "Décembre 2023 - Maintenant",
       points: [
-        "Bla bla bla",        "Bla bla bla",
-        "Bla bla bla",        "Bla bla bla",
+        "Maintenance corrective",        "Développement de nouvelles fonctionnalités",
+        "Développement de modules complémentaires",        "Développement d'une application en utilisant la méthode agile",
       ],
     },
   ];
@@ -181,7 +185,6 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
   const projects = [
     {
       name: "This Portfolio",
@@ -189,16 +192,20 @@ import {
         "Le portfolio que vous visitez actuellement.",
       tags: [
         {
+          name: "Projet Personnel",
+          color: "green-text-gradient",
+        },
+        {
           name: "react",
           color: "blue-text-gradient",
         },
         {
           name: "three.js",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "purple-text-gradient",
         },
       ],
       image: portfolioImage,
@@ -210,34 +217,67 @@ import {
         "Jeu vidéo codé dans le cadre d'un projet universitaire, en python qui consistait à une bataille de surface",
       tags: [
         {
+          name: "Projet Universitaire",
+          color: "green-text-gradient",
+        },
+        {
           name: "python",
           color: "blue-text-gradient",
         },
+
       ],
       image: jeuBoule,
       source_code_link: "https://github.com/abdelrkb/jeuBoule",
     },
     {
-      name: "Trip Guide",
+      name: "Backpack Hero",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Jeu Vidéo codé dans le cadre d'un projet universitaire",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Projet Universitaire",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Java21",
+          color: "blue-text-gradient",
+        },
+
+      ],
+      image: backpackHero,
+      source_code_link: "https://github.com/abdelrkb/backpack_hero",
+    },
+    {
+      name: "Scemantic",
+      description:
+        "Jeu Vidéo sur un serveur en ligne développé dans le cadre d'un projet universitaire avec un groupe",
+      tags: [
+        {
+          name: "Projet Universitaire",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Java21",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "PHP",
           color: "pink-text-gradient",
         },
+        {
+          name: "JS",
+          color: "orange-text-gradient",
+        },
+
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: scemantic,
+      source_code_link: "https://github.com/abdelrkb/SAE_SEMANTIC",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
