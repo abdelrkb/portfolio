@@ -75,54 +75,79 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      percent : "95%",
     },
     {
       name: "CSS 3",
       icon: css,
+      percent : "95%",
+
     },
     {
       name: "JavaScript",
       icon: javascript,
+      percent : "95%",
+
     },
     {
       name: "PHP",
       icon: typescript,
+      percent : "95%",
+
     },
     {
       name: "SQL",
       icon: redux,
+      percent : "95%",
+
     },
     {
       name: "Jquery",
       icon: jquery,
+      percent : "70%",
+
     },
     {
       name: "React JS",
       icon: reactjs,
+      percent : "55%",
+
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      percent : "40%",
+
     },
     {
       name: "Three JS",
       icon: threejs,
+      percent : "30%",
+
     },
     {
       name: "docker", //c
       icon: docker,
+      percent : "80%",
+
     },
     {
-      name: "Node JS",
+      name: "Node JS",//Python
       icon: nodejs,
+      percent : "80%",
+
     },
     {
       name: "MongoDB",
       icon: mongodb,
+      percent : "85%",
+
     },
     {
       name: "git",
       icon: git,
+      percent : "100%",
+
     },
   ];
   
