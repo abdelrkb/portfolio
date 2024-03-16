@@ -75,7 +75,7 @@ import {
     {
       name: "HTML 5",
       icon: html,
-      percent : "95%",
+      percent : "100%",
     },
     {
       name: "CSS 3",
@@ -110,7 +110,7 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-      percent : "55%",
+      percent : "75%",
 
     },
     {
@@ -212,7 +212,7 @@ import {
   ];
   const projects = [
     {
-      name: "This Portfolio",
+      name: "Ce Portfolio",
       description:
         "Le portfolio que vous visitez actuellement.",
       tags: [
@@ -305,4 +305,38 @@ import {
     
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+
+  const hs = [
+    {
+      title: "Réaliser",
+      icon: web,
+      path: 'realiser.php',
+    },
+    {
+      title: "Optimiser",
+      icon: web,
+      path: 'realiser.php',
+    },
+    {
+      title: "Administrer",
+      icon: web,
+      path: 'realiser.php',
+    },
+    {
+      title: "Gérer",
+      icon: web,
+      path: 'realiser.php',
+    },
+    {
+      title: "Conduire",
+      icon: web,
+      path: 'realiser.php',
+    },
+    {
+      title: "Collaborer",
+      icon: web,
+      path: 'realiser.php',
+    },
+  ];
+
+  export { services, technologies, experiences, testimonials, projects, hs };

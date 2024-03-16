@@ -47,10 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Je suis un développeur web fullstack étudiant en informatique en BUT2 à l'IUT Marne La Vallée.
-        J'apprends vite et m'adapte facilement à un nouveau millieu, je collabore facilement avec les clients
-        pour répondre au mieux aux besoins de ceux ci.
-      </motion.p>
+  En tant que développeur web fullstack, actuellement étudiant en deuxième année de BUT informatique à l'IUT Marne La Vallée, je possède une capacité d'apprentissage rapide et une grande faculté d'adaptation à de nouveaux environnements. Ma capacité à collaborer efficacement avec les clients me permet de comprendre et de répondre efficacement à leurs besoins. Je m'efforce toujours de fournir des solutions technologiques innovantes et fonctionnelles qui répondent aux attentes de manière optimale.     </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
