@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, HardSkills, Realiser, Optimiser, Administrer, Gerer, Conduire, Collaborer } from "./components";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />

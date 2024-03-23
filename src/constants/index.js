@@ -315,27 +315,27 @@ import {
     {
       title: "Optimiser",
       icon: web,
-      path: 'realiser.php',
+      path: '/optimiser',
     },
     {
       title: "Administrer",
       icon: web,
-      path: 'realiser.php',
+      path: '/administrer',
     },
     {
       title: "Gérer",
       icon: web,
-      path: 'realiser.php',
+      path: '/gerer',
     },
     {
       title: "Conduire",
       icon: web,
-      path: 'realiser.php',
+      path: '/conduire',
     },
     {
       title: "Collaborer",
       icon: web,
-      path: 'realiser.php',
+      path: '/collaborer',
     },
   ];
 
