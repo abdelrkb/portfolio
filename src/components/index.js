@@ -8,6 +8,7 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import HardSkills from './HardSkills';
+import Realiser from './Realiser';
 
 export {
   Hero,
@@ -17,6 +18,7 @@ export {
   Experience,
   Works,
   HardSkills,
+  Realiser,
   Feedbacks,
   Contact,
   EarthCanvas, 
