@@ -9,6 +9,11 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import HardSkills from './HardSkills';
 import Realiser from './Realiser';
+import Optimiser from './Optimiser';
+import Gerer from './Gerer';
+import Administrer from './Administrer';
+import Conduire from './Conduire';
+import Collaborer from './Collaborer';
 
 export {
   Hero,
@@ -19,6 +24,11 @@ export {
   Works,
   HardSkills,
   Realiser,
+  Optimiser,
+  Gerer,
+  Administrer,
+  Conduire,
+  Collaborer,
   Feedbacks,
   Contact,
   EarthCanvas, 
