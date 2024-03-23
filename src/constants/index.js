@@ -310,7 +310,7 @@ import {
     {
       title: "Réaliser",
       icon: web,
-      path: 'realiser.php',
+      path: '/realiser', // Utilisez le chemin correct ici
     },
     {
       title: "Optimiser",

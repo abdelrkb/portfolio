@@ -1,28 +1,30 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, HardSkills, Realiser } from "./components";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, HardSkills } from "./components";
-
-
-const App = () =>{
+const App = () => {
   return (
-    <BrowserRouter> 
-    <div className="relative z-0 bg-primary">
-      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-        <Navbar />
-        <Hero />
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <HardSkills />
+        <Routes>
+          <Route path="/realiser" element={<Realiser />} />
+        </Routes>
+        <Feedbacks />
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
       </div>
-      <About/>
-      <Experience/>
-      <Tech/>
-      <Works/>
-      <HardSkills/>
-      <Feedbacks/>
-      <div className="relative z-0">
-        <Contact />
-        <StarsCanvas />
-      </div>
-    </div>
     </BrowserRouter>
   )
 }
-export default App
+
+export default App;
