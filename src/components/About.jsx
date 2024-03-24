@@ -7,6 +7,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import CV from "../assets/CV_REKKAB_ABDELNOUR.pdf";
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -47,8 +49,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-  En tant que développeur web fullstack, actuellement étudiant en deuxième année de BUT informatique à l'IUT Marne La Vallée, je possède une capacité d'apprentissage rapide et une grande faculté d'adaptation à de nouveaux environnements. Ma capacité à collaborer efficacement avec les clients me permet de comprendre et de répondre efficacement à leurs besoins. Je m'efforce toujours de fournir des solutions technologiques innovantes et fonctionnelles qui répondent aux attentes de manière optimale.     </motion.p>
-
+      En tant que développeur web fullstack, actuellement étudiant en deuxième année de BUT informatique à l'IUT Marne La Vallée, je possède une capacité d'apprentissage rapide et une grande faculté d'adaptation à de nouveaux environnements. Ma capacité à collaborer efficacement avec les clients me permet de comprendre et de répondre efficacement à leurs besoins. Je m'efforce toujours de fournir des solutions technologiques innovantes et fonctionnelles qui répondent aux attentes de manière optimale.     </motion.p>
+      <div className="mt-4">
+      <a href={CV} download className="underline">
+        Télécharger mon CV
+      </a>
+      </div>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

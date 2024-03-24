@@ -85,9 +85,10 @@ const Administrer = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-     
+      <br/>
+      Dans l'administration des systèmes informatiques, je m'estime à un niveau de compétence de 50%. J'ai une expérience dans le déploiement de nouvelles architectures techniques et dans leur amélioration continue. Cependant, je reconnais qu'il me faut encore progresser dans la sécurisation des applications et des services. En continuant à me former sur les meilleures pratiques en matière de sécurité informatique et en acquérant une compréhension plus approfondie des systèmes, je vise à renforcer mes compétences en administration système.
       </div>
-  );
+  ); 
 };
 
 export default SectionWrapper(Administrer, "");

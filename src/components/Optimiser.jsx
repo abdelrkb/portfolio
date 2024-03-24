@@ -67,7 +67,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
-
+ 
 const Optimiser = () => {
   return (
     <div>
@@ -85,7 +85,8 @@ const Optimiser = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-
+      <br/>
+      Dans l'optimisation des performances des programmes, je me situe à un niveau de compétence de 70%. J'ai acquis une solide expérience dans l'amélioration des performances des applications dans des contextes contraints. Cependant, je reconnais qu'il reste des progrès à faire pour mettre en place des applications informatiques encore plus adaptées et efficaces, tout en minimisant leur impact environnemental. En continuant à explorer de nouvelles techniques d'optimisation et à intégrer les meilleures pratiques en matière de développement durable, je vise à renforcer davantage mes compétences dans ce domaine.
 
      </div>  
   );

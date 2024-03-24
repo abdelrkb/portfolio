@@ -87,10 +87,11 @@ const Conduire = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-     
+      <br/>
+      Dans la conduite de projets, je me positionne à un niveau de compétence de 80%. Fort d'une expérience substantielle, je suis capable de lancer avec succès de nouveaux projets, de piloter leur maintien en condition opérationnelle et de faire évoluer les systèmes d'information. Cependant, je reconnais que l'un de mes défauts est ma tendance à parfois dépasser les délais prévus. En travaillant activement sur ma gestion du temps et en mettant en place des stratégies pour respecter les deadlines, je m'efforce d'améliorer cette facette de ma conduite de projet, afin de maintenir et d'améliorer ma compétence dans ce domaine.
       </div>     
      
   );
 };
-
+ 
 export default SectionWrapper(Conduire, "");

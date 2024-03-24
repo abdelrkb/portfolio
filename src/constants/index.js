@@ -9,6 +9,8 @@ import djikstra from "../assets/djikstra.png";
 import medic from "../assets/medic.jpeg";
 import unesco from "../assets/unesco.png";
 import ihm from "../assets/ihm.jpeg";
+import cnil from "../assets/cnil.png";
+import reseau from "../assets/reseau.jpeg";
 
 
 import {
@@ -216,100 +218,336 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  const projects = [
-    {
-      name: "Ce Portfolio",
-      description:
-        "Le portfolio que vous visitez actuellement.",
-      tags: [
-        {
-          name: "Projet Personnel",
-          color: "green-text-gradient",
-        },
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "three.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: portfolioImage,
-      source_code_link: "https://github.com/abdelrkb/portfolio",
-    },
-    {
+
+const sqlColor =  "purple-text-gradient";
+const htmlColor =  "blue-text-gradient";
+const javaColor = "yellow-text-gradient";
+const cssColor = "pink-text-gradient";
+const pjColor = "green-text-gradient";
+const pythonColor = "lightpink-text-gradient";
+const jsColor = "orange-text-gradient"
+const phpColor = "lime-text-gradient"
+const phpAdmin = "grey-text-gradient"
+const cColor = "bbgum-text-gradient";
+const reactColor ="teal-text-gradient";
+const nodeColor ="navy-text-gradient";
+const typescriptColor ="lightlime-text-gradient";
+const tailWindColor ="bbgumpurple-text-gradient";
+const threeJSColor ="lightgray-text-gradient";
+
+const unescoPJ =     {
+    name: "Projet Unesco",
+    description:
+      "Le Projet UNESCO, réalisé en groupe de 4 persones et en partenariat avec l'UNESCO avait pour but de créer un site internet ayant pour but de promouvoir les Rives de Sein inscrit au patrimoine de l'unesco. Ce site est disponible dans trois langues différentes.",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "HTML5",
+        color: htmlColor,
+      },
+      {
+        name: "CSS3",
+        color: cssColor,
+      },
+      {
+        name: "PHP",
+        color: phpColor,
+      },
+      {
+        name: "SQL",
+        color: sqlColor,
+      },
+      {
+        name: "PhpMyAdmin",
+        color: phpAdmin,
+      },
+    ],
+    image: unesco,
+    source_code_link: "https://github.com/abdelrkb/UnescoRiveDeSeine",
+  }
+  
+  const scemanticPJ = {
+    name: "Scemantic",
+    description:
+      "Jeu Vidéo sur un serveur en ligne développé dans le cadre d'un projet universitaire avec un groupe de quatre personnes",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "Java21",
+        color: javaColor,
+      },
+      {
+        name: "C",
+        color: cColor,
+      },
+      {
+        name: "PHP",
+        color: phpColor,
+      },
+      {
+        name: "JavaScript",
+        color: jsColor,
+      },
+      {
+        name: "Python",
+        color: pythonColor,
+      },
+      {
+        name: "React",
+        color: reactColor,
+      },
+      {
+        name: "TypeScript",
+        color: typescriptColor,
+      },
+      {
+        name: "NodeJs",
+        color: nodeColor,
+      },
+      {
+        name: "SQL",
+        color: sqlColor,
+      },
+      {
+        name: "PHPMyAdmin",
+        color: phpAdmin,
+      },
+    ],
+    image: scemantic,
+    source_code_link: "https://github.com/abdelrkb/SAE_SEMANTIC",
+  }
+  
+  const banquePJ = {
+    name: "Portail Banquaire",
+    description:
+      "Création d'un site web dynamique dédié à la gestion des paiements par cartes bancaires. \nGrâce à un backlog préétabli, j'ai maintenu un flux de travail harmonieux tout au long du développement, garantissant la qualité du projet de bout en bout.",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "PHP",
+        color: phpColor,
+      },
+      {
+        name: "SQL",
+        color: sqlColor,
+      },
+      {
+        name: "JavaScript",
+        color: jsColor,
+      },
+      {
+        name: "PhpMyAdmin",
+        color: phpAdmin,
+      },
+    ],
+    image: bank,
+    source_code_link: "https://github.com/abdelrkb/ProjetBanque",
+  }
+  const exploAlgoPJ =  {
+    name: "Exploration Algorithmique",
+    description:
+      "Implémentation des algorithme sur les graphes. Ce projet offre la possibilité d'effectuer différentes transformations sur les automates. Parmi les transformations plus avancées, on trouve la minimisation, produit, ainsi que la déterminisation d'automates.",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "Python",
+        color: pythonColor,
+      },
+    ],
+    image: graph,
+    source_code_link: "https://github.com/abdelrkb/Exploration_Algorithmique",
+  }
+  
+  const parcoursAlgoPJ = {
+    name: "Parcours Algorithmique",
+    description:
+      "Implémentation des algorithme de parcours sur les graphes. Ce projet offre la possibilité d'effectuer parcours sur les automates.",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "Python",
+        color: pythonColor,
+      },
+    ],
+    image: djikstra,
+    source_code_link: "https://github.com/abdelrkb/Automates",
+  }
+  
+  const boulegamePJ = {
+    
       name: "Jeu Bataille des Boules",
       description:
         "Jeu vidéo codé dans le cadre d'un projet universitaire, en python qui consistait à une bataille de surface",
       tags: [
         {
           name: "Projet Universitaire",
-          color: "green-text-gradient",
+          color: pjColor,
         },
         {
-          name: "python",
-          color: "blue-text-gradient",
+          name: "Python",
+          color: pythonColor,
         },
-
+  
       ],
       image: jeuBoule,
       source_code_link: "https://github.com/abdelrkb/jeuBoule",
+    }
+  
+  const medicPJ = {
+    name: "Centre médical",
+    description:
+      "Création d'un site web dynamique dédié à la gestion d'un centre médical. \nGrâce à un backlog préétabli, j'ai maintenu un flux de travail harmonieux tout au long du développement, garantissant la qualité du projet de bout en bout.",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "PHP",
+        color: phpColor,
+      },
+      {
+        name: "SQL",
+        color: sqlColor,
+      },
+      {
+        name: "PhpMyAdmin",
+        color: phpAdmin,
+      },
+    ],
+    image: medic,
+    source_code_link: "https://github.com/abdelrkb/CentreMedical",
+  }
+  
+  const ihmPJ = {
+    name: "Les Visiteurs",
+    description:
+      "Création d'une maquette d'aplication de réalité virtuelle dans Paris",
+    tags: [
+      {
+        name: "Projet Universitaire",
+        color: pjColor,
+      },
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ihm,
+    source_code_link: "",
+  }
+
+const portfolioPj = {
+  name: "Ce Portfolio",
+  description:
+    "Le portfolio que vous visitez actuellement.",
+  tags: [
+    {
+      name: "Projet Personnel",
+      color: pjColor,
     },
     {
-      name: "Backpack Hero",
-      description:
-        "Jeu Vidéo codé dans le cadre d'un projet universitaire",
-      tags: [
-        {
-          name: "Projet Universitaire",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Java21",
-          color: "blue-text-gradient",
-        },
-
-      ],
-      image: backpackHero,
-      source_code_link: "https://github.com/abdelrkb/backpack_hero",
+      name: "React",
+      color: reactColor,
     },
     {
-      name: "Scemantic",
-      description:
-        "Jeu Vidéo sur un serveur en ligne développé dans le cadre d'un projet universitaire avec un groupe",
-      tags: [
-        {
-          name: "Projet Universitaire",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Java21",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "C",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "PHP",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "JS",
-          color: "orange-text-gradient",
-        },
-
-      ],
-      image: scemantic,
-      source_code_link: "https://github.com/abdelrkb/SAE_SEMANTIC",
+      name: "three.js",
+      color: threeJSColor,
     },
-    
-  ];
+    {
+      name: "Tailwind",
+      color: tailWindColor,
+    },
+  ],
+  image: portfolioImage,
+  source_code_link: "https://github.com/abdelrkb/portfolio",
+}
+
+const bpHeroPJ =     {
+  name: "Backpack Hero",
+  description:
+    "Jeu Vidéo codé dans le cadre d'un projet universitaire",
+  tags: [
+    {
+      name: "Projet Universitaire",
+      color: pjColor,
+    },
+    {
+      name: "Java21",
+      color: javaColor,
+    },
+
+  ],
+  image: backpackHero,
+  source_code_link: "https://github.com/abdelrkb/backpack_hero",
+}
+const cnilPJ =     {
+  name: "Contrôle Cnil",
+  description:
+    "Carte répértoriant tout les contrôles CNIL effectué entre 2017 et 2022. Réalisé dans une équipe de 4 personnes.",
+  tags: [
+    {
+      name: "Projet Universitaire",
+      color: pjColor,
+    },
+    {
+      name: "PHP",
+      color: javaColor,
+    },
+    {
+      name: "SQL",
+      color: sqlColor,
+    },
+    {
+      name: "PHPMyAdmin",
+      color: phpAdmin,
+    },
+  ],
+  image: cnil,
+  source_code_link: "https://github.com/elyasmlm/controles_cnil",
+}
+const reseauPj =     {
+  name: "Installation et etude du fonctionnement du protocole HTTP sous Linux",
+  description:
+    "L’objectif de cette SAE est d’installer et d'étudier le fonctionnement du protocole HTTP et sa configuration sous Linux.",
+  tags: [
+    {
+      name: "Projet Universitaire",
+      color: pjColor,
+    },
+    {
+      name: "WireShark",
+      color: javaColor,
+    },
+    {
+      name: "Linux",
+      color: sqlColor,
+    },
+    {
+      name: "NetKit",
+      color: phpAdmin,
+    },
+  ],
+  image: reseau,
+  source_code_link: "",
+}
+//
+const projects = [portfolioPj, bpHeroPJ, scemanticPJ, unescoPJ , banquePJ, exploAlgoPJ, parcoursAlgoPJ, boulegamePJ,ihmPJ,medicPJ, cnilPJ, reseauPj];
   
 
   const hs = [
@@ -346,226 +584,19 @@ import {
   ];
 
 //PROJETS COMPETENCES
-const unescoPJ =     {
-  name: "Projet Unesco",
-  description:
-    "Le Projet UNESCO, réalisé en groupe de 4 persones et en partenariat avec l'UNESCO avait pour but de créer un site internet ayant pour but de promouvoir les Rives de Sein inscrit au patrimoine de l'unesco. Ce site est disponible dans trois langues différentes.",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "HTML5",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "CSS3",
-      color: "pink-text-gradient",
-    },
-    {
-      name: "PHP",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "SQL",
-      color: "purple-text-gradient",
-    },
-    {
-      name: "PhpMyAdmin",
-      color: "yellow-text-gradient",
-    },
-  ],
-  image: unesco,
-  source_code_link: "https://github.com/abdelrkb/UnescoRiveDeSeine",
-}
 
-const scemanticPJ = {
-  name: "Scemantic",
-  description:
-    "Jeu Vidéo sur un serveur en ligne développé dans le cadre d'un projet universitaire avec un groupe de quatre personnes",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "Java21",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "C",
-      color: "purple-text-gradient",
-    },
-    {
-      name: "PHP",
-      color: "pink-text-gradient",
-    },
-    {
-      name: "JS",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "Python",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "React",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "TypeScript",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "NodeJs",
-      color: "orange-text-gradient",
-    },
-  ],
-  image: scemantic,
-  source_code_link: "https://github.com/abdelrkb/SAE_SEMANTIC",
-}
 
-const banquePJ = {
-  name: "Portail Banquaire",
-  description:
-    "Création d'un site web dynamique dédié à la gestion des paiements par cartes bancaires. \nGrâce à un backlog préétabli, j'ai maintenu un flux de travail harmonieux tout au long du développement, garantissant la qualité du projet de bout en bout.",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "PHP",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "SQL",
-      color: "pink-text-gradient",
-    },
-    {
-      name: "JavaScript",
-      color: "orange-text-gradient",
-    },
-    {
-      name: "PhpMyAdmin",
-      color: "purple-text-gradient",
-    },
-  ],
-  image: bank,
-  source_code_link: "https://github.com/abdelrkb/ProjetBanque",
-}
-const exploAlgoPJ =  {
-  name: "Exploration Algorithmique",
-  description:
-    "Implémentation des algorithme sur les graphes. Ce projet offre la possibilité d'effectuer différentes transformations sur les automates. Parmi les transformations plus avancées, on trouve la minimisation, produit, ainsi que la déterminisation d'automates.",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "Python",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: graph,
-  source_code_link: "https://github.com/abdelrkb/Exploration_Algorithmique",
-}
-
-const parcoursAlgoPJ = {
-  name: "Parcours Algorithmique",
-  description:
-    "Implémentation des algorithme de parcours sur les graphes. Ce projet offre la possibilité d'effectuer parcours sur les automates.",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "Python",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: djikstra,
-  source_code_link: "https://github.com/abdelrkb/Automates",
-}
-
-const boulegamePJ = {
-  
-    name: "Jeu Bataille des Boules",
-    description:
-      "Jeu vidéo codé dans le cadre d'un projet universitaire, en python qui consistait à une bataille de surface",
-    tags: [
-      {
-        name: "Projet Universitaire",
-        color: "green-text-gradient",
-      },
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-
-    ],
-    image: jeuBoule,
-    source_code_link: "https://github.com/abdelrkb/jeuBoule",
-  }
-
-const medicPJ = {
-  name: "Centre médical",
-  description:
-    "Création d'un site web dynamique dédié à la gestion d'un centre médical. \nGrâce à un backlog préétabli, j'ai maintenu un flux de travail harmonieux tout au long du développement, garantissant la qualité du projet de bout en bout.",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "PHP",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "SQL",
-      color: "pink-text-gradient",
-    },
-    {
-      name: "PhpMyAdmin",
-      color: "purple-text-gradient",
-    },
-  ],
-  image: medic,
-  source_code_link: "https://github.com/abdelrkb/CentreMedical",
-}
-
-const ihmPJ = {
-  name: "Les Visiteurs",
-  description:
-    "Création d'une maquette d'aplication de réalité virtuelle dans Paris",
-  tags: [
-    {
-      name: "Projet Universitaire",
-      color: "green-text-gradient",
-    },
-    {
-      name: "Figma",
-      color: "blue-text-gradient",
-    },
-  ],
-  image: ihm,
-  source_code_link: "",
-}
-
-const projectsRealiser = [banquePJ,unescoPJ,scemanticPJ,ihmPJ];
+const projectsRealiser = [banquePJ,unescoPJ,scemanticPJ,ihmPJ,cnilPJ];
 
 const projectsOptimiser = [exploAlgoPJ,parcoursAlgoPJ,boulegamePJ,scemanticPJ,];
 
-const projectsAdministrer = [scemanticPJ,];
+const projectsAdministrer = [scemanticPJ,reseauPj,];
 
 const projectsGerer = [banquePJ, medicPJ,scemanticPJ,];
 
-const projectsConduire = [scemanticPJ,unescoPJ,ihmPJ];
+const projectsConduire = [scemanticPJ,unescoPJ,ihmPJ,cnilPJ];
 
-const projectsCollaborer = [unescoPJ,scemanticPJ, boulegamePJ, ihmPJ];
+const projectsCollaborer = [unescoPJ,scemanticPJ, boulegamePJ, ihmPJ,cnilPJ];
 
 export { 
     services, 

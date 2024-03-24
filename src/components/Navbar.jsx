@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import  githubLogo  from "../assets/githubLogo.png";
+import  linkedIn  from "../assets/linkedin.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -46,7 +48,14 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Abdelnour Rekkab &nbsp;
             <span className='sm:block hidden'>| Portfolio</span>
-          </p>
+            <span className='sm:block hidden'></span></p>
+            <div
+              onClick={() => window.open("https://github.com/abdelrkb", "_blank")}>
+              <img src={githubLogo} alt='GitHub Logo' className='w-6 h-6' />
+            </div>     
+            <div onClick={() => window.open("https://www.linkedin.com/in/abdelnour-rekkab-58741b266/", "_blank")}>
+            <img src={linkedIn} alt='LinkedIn' className='w-6 h-6' />
+            </div>
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

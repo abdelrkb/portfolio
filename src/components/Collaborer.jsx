@@ -86,10 +86,11 @@ const Collaborer = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-     
+      <br/>
+      Dans la collaboration, je me considère comme ayant atteint un niveau de compétence de 100%. Fort d'une expérience significative, je suis compétent pour lancer avec succès de nouveaux projets en équipe et pour organiser efficacement le travail en relation avec celle-ci. Je suis également habile à élaborer, gérer et transmettre l'information de manière claire et efficace. En continuant à cultiver un environnement de travail positif, à encourager la communication ouverte et à tirer parti des forces de chaque membre de l'équipe, je suis déterminé à maintenir et à renforcer mes compétences en matière de collaboration.
       </div>     
      
   );
 };
-
+ 
 export default SectionWrapper(Collaborer, "");
