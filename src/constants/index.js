@@ -238,7 +238,7 @@ const threeJSColor ="lightgray-text-gradient";
 const unescoPJ =     {
     name: "Projet Unesco",
     description:
-      "Le Projet UNESCO, réalisé en groupe de 4 persones et en partenariat avec l'UNESCO avait pour but de créer un site internet ayant pour but de promouvoir les Rives de Sein inscrit au patrimoine de l'unesco. Ce site est disponible dans trois langues différentes.",
+      "Le Projet UNESCO, réalisé en groupe de 4 personnes, en partenariat avec l'UNESCO avait pour but de créer un site internet afin de promouvoir les Rives de Seine inscrit au patrimoine de l'unesco. Ce site est disponible dans trois langues différentes.",
     tags: [
       {
         name: "Projet Universitaire",
@@ -355,7 +355,7 @@ const unescoPJ =     {
   const exploAlgoPJ =  {
     name: "Exploration Algorithmique",
     description:
-      "Implémentation des algorithme sur les graphes. Ce projet offre la possibilité d'effectuer différentes transformations sur les automates. Parmi les transformations plus avancées, on trouve la minimisation, produit, ainsi que la déterminisation d'automates.",
+      "Implémentation des algorithme sur les graphes. Ce projet offre la possibilité d'effectuer différentes transformations sur les automates. Parmi les transformations les plus avancées, on trouve la minimisation, produit, ainsi que la déterminisation d'automates.",
     tags: [
       {
         name: "Projet Universitaire",
@@ -373,7 +373,7 @@ const unescoPJ =     {
   const parcoursAlgoPJ = {
     name: "Parcours Algorithmique",
     description:
-      "Implémentation des algorithme de parcours sur les graphes. Ce projet offre la possibilité d'effectuer parcours sur les automates.",
+      "Implémentation des algorithme de parcours sur les graphes. Ce projet offre la possibilité d'effectuer des parcours sur les automates.",
     tags: [
       {
         name: "Projet Universitaire",

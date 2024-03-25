@@ -85,7 +85,7 @@ const Gerer = () => {
         ))}
       </div>
       <br/>
-      Dans la gestion de données, je me positionne à un niveau de compétence de 90%. Avec une expérience approfondie, je suis capable de lancer efficacement de nouveaux projets, d'exploiter les données pour des prises de décision stratégiques tout en garantissant leur sécurité. Ma capacité à mettre en place des processus robustes et des protocoles de sécurité me permet de gérer les données sensibles de manière efficace. En continuant à me tenir informé des avancées technologiques et des meilleures pratiques en matière de gestion de données, je suis déterminé à maintenir et à améliorer mes compétences dans ce domaine essentiel.
+      Dans la gestion de données, j'estime mon niveau de compétence à 90%. Avec une expérience approfondie, je suis capable de lancer efficacement de nouveaux projets, d'exploiter les données pour des prises de décision stratégiques tout en garantissant leur sécurité. Ma capacité à mettre en place des processus robustes et des protocoles de sécurité me permet de gérer les données sensibles de manière efficace. En continuant à me tenir informé des avancées technologiques et des meilleures pratiques en matière de gestion de données, je suis déterminé à maintenir et à améliorer mes compétences dans ce domaine essentiel.
       </div>   
   );
 };

@@ -95,7 +95,7 @@ const Realiser = () => {
       </div>
     <br />
 
-    Dans la réalisation d'applications informatiques, leur évolution et leur maintenance, je m'estime à un niveau de compétence de 80%. Ma solide expérience pratique dans la réalisation de plusieurs projets témoigne de mes compétences. Néanmoins, je suis conscient qu'il existe des axes d'amélioration, notamment en matière de documentation, de tests et de gestion de projet. En continuant à perfectionner mes compétences en analyse des besoins et en restant à l'affût des dernières avancées technologiques, je suis déterminé à consolider davantage mon expertise dans ce domaine.
+    Dans la réalisation d'applications informatiques, leur évolution et leur maintenance, je m'estime à un niveau de compétence de 80%. Ma solide expérience pratique dans la réalisation de plusieurs projets témoigne de mes compétences accquises. Néanmoins, je suis conscient qu'il existe des axes d'amélioration, notamment en matière de documentation, de tests et de gestion de projet. En continuant à perfectionner mes compétences en analyse des besoins et en restant à l'affût des dernières avancées technologiques, je suis déterminé à consolider davantage mon expertise dans ce domaine.
 
     </div>
 
