@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import CV from "../assets/CV_REKKAB_ABDELNOUR.pdf";
+import CV from "../assets/CV.pdf";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      Développeur web fullstack, actuellement étudiant en deuxième année de BUT informatique à l'IUT Marne La Vallée, mon esprit d’analyse permet une facilité dans l’apprentissage que j’acquiert facilement et je possède une grande faculté d’adaptation à tout nouvel environnement. Je collabore aisément avec les clients ce qui me permet de comprendre et de répondre efficacement à tout leurs besoins. Je m'engage à fournir des solutions technologiques innovantes et fonctionnelles qui répondront aux attentes de manière optimale.     </motion.p>
+Ingénieur Data et étudiant en troisième année de BUT Informatique à l'IUT de Marne-La-Vallée, je possède un esprit analytique qui me permet d'acquérir rapidement de nouvelles compétences et de m'adapter facilement à tout environnement. Doté d'un excellent sens du relationnel, je collabore efficacement avec les clients afin de comprendre et de répondre précisément à leurs besoins. Mon engagement : concevoir des solutions technologiques innovantes et performantes, adaptées aux attentes de chacun.  </motion.p>
       <div className="mt-4">
       <a href={CV} download className="underline">
         Télécharger mon CV

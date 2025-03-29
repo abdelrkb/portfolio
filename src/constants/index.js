@@ -11,12 +11,12 @@ import unesco from "../assets/unesco.png";
 import ihm from "../assets/ihm.jpeg";
 import cnil from "../assets/cnil.png";
 import reseau from "../assets/reseau.jpeg";
-
+import ansc from "../assets/ansc.png"
+import gc from "../assets/logo_gc.png"
 
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -28,15 +28,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
 
@@ -61,20 +54,16 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer ",
-      icon: web,
-    },
-    {
-      title: "Java Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Backend Developer ",
       icon: backend,
     },
     {
-      title: "Chef de projet",
-      icon: creator,
+      title: "Python Developer",
+      icon: mobile,
+    },
+    {
+      title: "Data Engineer",
+      icon: web,
     },
   ];
   const img = document.createElement('img');
@@ -142,7 +131,7 @@ import {
     {
       name: "Node JS",//Python
       icon: nodejs,
-      percent : "80%",
+      percent : "100%",
 
     },
     {
@@ -161,35 +150,27 @@ import {
   
   const experiences = [
     {
-      title: "Vendeur Polyvalent",
-      company_name: "Primark",
-      icon: meta,
-      iconBg: "#383E56",
-      date: "Juin 2021 - Septemnbre 2021",
-      points: [
-      "Relationnel Client", "Travail en équipe",      ],
-    },
-    {
-      title: "Hôte d'acceuil",
-      company_name: "Auchan",
-      icon: starbucks,
-      iconBg: "#E6DEDD",
-      date: "Octobre 2021 - Décembre 2023",
-      points: [
-        "Relationnel Client",        "Gestion et travail en équipe",    "Organisation d'un espace de travail partagé",
-      ],
-    },
-    {
       title: "Développeur web fullstack",
       company_name: "eBrigade",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Décembre 2023 - Maintenant",
+      date: "Décembre 2023 - Juin 2024",
       points: [
         "Maintenance corrective",        "Développement de nouvelles fonctionnalités",
-        "Développement de modules complémentaires",        "Développement d'une application en utilisant la méthode agile",
+        "Développement de modules complémentaires"
       ],
     },
+    {
+      title: "Ingénieur Data",
+      company_name: "Agence Numérique de la Sécurité Civile",
+      icon: ansc,
+      iconBg: "#383E56",
+      date: "Septembre 2024 - Maintenant",
+      points: [
+        "Création d'architecture de données complexe",        "Automatisation de flux de données",
+        "Développement de modules complémentaires",        "Développement d'une application en utilisant la méthode agile",
+      ],
+    }
   ];
   
   const testimonials = [
@@ -235,6 +216,34 @@ const typescriptColor ="lightlime-text-gradient";
 const tailWindColor ="bbgumpurple-text-gradient";
 const threeJSColor ="lightgray-text-gradient";
 
+const gcPJ = {
+  name : "Projet Green Circle",
+  description : "Le projet Green Circle, réalisé en groupe de 4 personnes, en partenariat avec les étudiants MIPI en M2 et l'agglomération du Val d'Europe. Ce projet avait pour but de créer le POC Fonctionelle de l'application Green Circle, application ayant pour but de créer une économie circulaire dans le PIE du Val d'Europe.",
+  tags: [
+    {
+      name: "Projet Universitaire/Professionel",
+      color: pjColor,
+    },
+    {
+      name: "SQL",
+      color: sqlColor,
+    },
+    {
+      name: "JavaScript",
+      color: jsColor,
+    },
+    {
+      name: "Python",
+      color: pythonColor,
+    },
+    {
+      name: "React",
+      color: reactColor,
+    },
+  ],
+    image: gc,
+    source_code_link: "https://github.com/ChamsedineAmouche/Green-Circle",
+}
 const unescoPJ =     {
     name: "Projet Unesco",
     description:
@@ -547,14 +556,14 @@ const reseauPj =     {
   source_code_link: "",
 }
 //
-const projects = [portfolioPj, bpHeroPJ, scemanticPJ, unescoPJ , banquePJ, exploAlgoPJ, parcoursAlgoPJ, boulegamePJ,ihmPJ,medicPJ, cnilPJ, reseauPj];
+const projects = [portfolioPj, bpHeroPJ, scemanticPJ, gcPJ,unescoPJ , banquePJ, exploAlgoPJ, parcoursAlgoPJ, boulegamePJ,ihmPJ,medicPJ, cnilPJ, reseauPj];
   
 
   const hs = [
     {
       title: "Réaliser",
       icon: web,
-      path: '/realiser', // Utilisez le chemin correct ici
+      path: '/realiser', 
     },
     {
       title: "Optimiser",
@@ -586,17 +595,17 @@ const projects = [portfolioPj, bpHeroPJ, scemanticPJ, unescoPJ , banquePJ, explo
 //PROJETS COMPETENCES
 
 
-const projectsRealiser = [banquePJ,unescoPJ,scemanticPJ,ihmPJ,cnilPJ];
+const projectsRealiser = [gcPJ, banquePJ,unescoPJ,scemanticPJ,ihmPJ,cnilPJ];
 
-const projectsOptimiser = [exploAlgoPJ,parcoursAlgoPJ,boulegamePJ,scemanticPJ,];
+const projectsOptimiser = [gcPJ, exploAlgoPJ,parcoursAlgoPJ,boulegamePJ,scemanticPJ,];
 
-const projectsAdministrer = [scemanticPJ,reseauPj,];
+const projectsAdministrer = [gcPJ, scemanticPJ,reseauPj,];
 
-const projectsGerer = [banquePJ, medicPJ,scemanticPJ,];
+const projectsGerer = [gcPJ, banquePJ, medicPJ,scemanticPJ,];
 
-const projectsConduire = [scemanticPJ,unescoPJ,ihmPJ,cnilPJ];
+const projectsConduire = [gcPJ, scemanticPJ,unescoPJ,ihmPJ,cnilPJ];
 
-const projectsCollaborer = [unescoPJ,scemanticPJ, boulegamePJ, ihmPJ,cnilPJ];
+const projectsCollaborer = [gcPJ, unescoPJ,scemanticPJ, boulegamePJ, ihmPJ,cnilPJ];
 
 export { 
     services, 
