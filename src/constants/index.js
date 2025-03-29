@@ -556,7 +556,7 @@ const reseauPj =     {
   source_code_link: "",
 }
 //
-const projects = [gcPJ, unescoPJ, scemanticPJ, portfolioPj, bpHeroPJ,  banquePJ, exploAlgoPJ, parcoursAlgoPJ, boulegamePJ,ihmPJ,medicPJ, cnilPJ, reseauPj];
+const projects = [gcPJ, unescoPJ, scemanticPJ, portfolioPj, bpHeroPJ,  banquePJ, exploAlgoPJ, parcoursAlgoPJ, boulegamePJ,ihmPJ,medicPJ, cnilPJ];
   
 
   const hs = [
